@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+
+}
+
+.container {
+    background-color: blueviolet;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container h1 {
+    color: white;
+    font-size: 120px;
+    font-weight:70;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: end;
+
+}
+
+.container p {
+    color:aqua;
+    font-size: 64px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: right;
+    background-color: blue;
+    text-align: end;
+    
+
+}
